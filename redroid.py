@@ -85,7 +85,7 @@ def main():
             tags.append("mindthegapps")
         else:
             helper.print_color(
-                "WARNING: MindTheGapps seems to work only 12 - 14", helper.bcolors.YELLOW)
+                "WARNING: MindTheGapps seems to work only 12 - 15", helper.bcolors.YELLOW)
     if args.ndk:
         if args.android in ["11.0.0", "12.0.0", "13.0.0", "14.0.0"]:
             arch = helper.host()[0]
