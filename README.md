@@ -123,8 +123,6 @@ docker run -itd --rm --privileged \
     ro.dalvik.vm.native.bridge=libhoudini.so
 ```
 
-If you need to use libhoudini on redroid:11.0.0 & redroid:12.0.0 , ro.dalvik.vm.native.bridge should be libnb.so (patch only).
-
 ## Troubleshooting
 
 - The device isn't Play Protect certified
