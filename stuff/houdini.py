@@ -48,6 +48,12 @@ on property:sys.boot_completed=1
             "339a8cb7f3d8fa5959b2c79bbd858c1b"],
         "14.0.0": [
             "https://github.com/rote66/vendor_intel_proprietary_houdini/archive/476c66fa32fc9b2f622904fa1f8cf3658e85d938.zip",
+            "339a8cb7f3d8fa5959b2c79bbd858c1b"],
+        "15.0.0": [
+            "https://github.com/rote66/vendor_intel_proprietary_houdini/archive/476c66fa32fc9b2f622904fa1f8cf3658e85d938.zip",
+            "339a8cb7f3d8fa5959b2c79bbd858c1b"],
+        "16.0.0": [
+            "https://github.com/rote66/vendor_intel_proprietary_houdini/archive/476c66fa32fc9b2f622904fa1f8cf3658e85d938.zip",
             "339a8cb7f3d8fa5959b2c79bbd858c1b"]
     }
     dl_file_name = os.path.join(download_loc, "libhoudini.zip")
