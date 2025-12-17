@@ -13,8 +13,8 @@ class Houdini_Hack(General):
 
     def __init__(self, version):
         self.version = version
-        self.dl_link = "https://github.com/rote66/redroid_libhoudini_hack/archive/a2194c5e294cbbfdfe87e51eb9eddb4c3621d8c3.zip"
-        self.act_md5 = "8f71a58f3e54eca879a2f7de64dbed58"
+        self.dl_link = "https://github.com/rote66/redroid_libhoudini_hack/archive/6b436ad1f49dca5cf74f6ae237504911bfd93687.zip"
+        self.act_md5 = "0db90e44c6dd855513d65bcfb73395e3"
 
     def download(self):
         print_color("Downloading libhoudini_hack now .....", bcolors.GREEN)
